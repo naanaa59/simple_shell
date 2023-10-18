@@ -1,4 +1,4 @@
-# Project: 0x16. C - Simple Shell
+# Project: C - Simple Shell
 
 ## Resources
 
