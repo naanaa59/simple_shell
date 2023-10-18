@@ -58,6 +58,10 @@ int main(__attribute__((unused))int argc, char *argv[])
 		{
 			unsetenv(args[1]);
 		}
+		else if (args[0] != NULL && _strcmp(args[0], "cd") == 0)
+		{
+			change_dir(args, argv[0], lineIndex, args[0]);
+		}
 		else if (args[0] != NULL && _strcmp(args[0], "setenv") != 0
 				&& _strcmp(args[0], "unsetenv") != 0 && _strcmp(args[0], "cd") != 0)
 		{
