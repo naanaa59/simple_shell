@@ -28,4 +28,39 @@ int _atoi(char *s)
 }
 
 
+/**
+ * _strlen - returns the length of a string.
+ *
+ * @s: given string
+ *
+ * Return: the length of the string.
+ */
+
+int _strlen(char *s)
+{
+	int l = 0, i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		l++;
+	}
+	return (l);
+}
+/**
+ * _puts - prints a string, followed by a new line, to stdout.
+ *
+ * @str: the given string to print
+ *
+ * @std: the standard output.
+ */
+void _puts(int std, char *str)
+{
+	int i;
+
+	for (i = 0; str[i] != 0; i++)
+	{
+		_putchar(std, str[i]);
+	}
+	_putchar(std, '\n');
+}
 
