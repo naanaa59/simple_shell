@@ -11,7 +11,7 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
-
+extern char **environ;
 
 /*custom functions*/
 char *full_command(char *filename);
@@ -20,7 +20,10 @@ void custom_perror(char *program_name, int line, char *prefix, char *command);
 void custom_perror_exit(char *program_name, int line, char *prefix, char *command);
 void exit_command(char *argv[], char *args[], int argCount, int lineIndex, char *command, int *status);
 int exec_command(char *args[], char *envp[], char *argv[], int lineIndex);
-
+int change_dir(char **args, char *program_name, int line, char *command);
+void cd_error(char *program_name, int line, char *prefix,
+		char *prefix2,  char *command);
+void print_env(char **env);
 
 /*string functions*/
 char *_strcpy(char *dest, char *src);
