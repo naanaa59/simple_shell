@@ -42,8 +42,13 @@
 | 9. setenv, unsetenv | Implement the setenv and unsetenv builtin commands |
 | 10. cd | Implement the builtin command cd |
 
-[function_2.c](https://github.com/naanaa59/simple_shell/blob/master/function_2.c) | customized functions  |
+| File | Descrition |
+| ---- | -----------|
+| [sh.h](https://github.com/naanaa59/simple_shell/blob/master/sh.h) |      Header file          |
+| [function_1.c](https://github.com/naanaa59/simple_shell/blob/master/function_1.c) | customized functions |
+| [function_2.c](https://github.com/naanaa59/simple_shell/blob/master/function_2.c) | customized functions  |
 | [function_3.c](https://github.com/naanaa59/simple_shell/blob/master/function_3.c) | customized functions        |
 | [functions_4.c](https://github.com/naanaa59/simple_shell/blob/master/functions_4.c) |  customized functions               |
 | [cd.c](https://github.com/naanaa59/simple_shell/blob/master/cd.c) |       change directory function         |
 | [hsh.c](https://github.com/naanaa59/simple_shell/blob/master/hsh.c) |            Main function     |
+
