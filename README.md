@@ -28,7 +28,6 @@
 * How to suspend the execution of a process until one of its children terminates
 * What is <code>EOF</code> / “end-of-file”?
 ##Tasks
-/bin/bash: q: command not found
 | Task Done | Description |
 | ---- | ---- |
 | 0. Betty would be proud |  Write a beautiful code that passes the Betty checks |
