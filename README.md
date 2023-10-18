@@ -38,4 +38,6 @@
 | 5. Simple shell 1.0 | Implement the env built-in, that prints the current environment |
 | 6. Simple shell 0.1.1 | Write your own getline function  |
 | 7. Simple shell 0.2.1 | You are not allowed to use strtok |
-
+| 8. Simple shell 0.4.1 | handle arguments for the built-in exit |
+| 9. setenv, unsetenv | Implement the setenv and unsetenv builtin commands |
+| 10. cd | Implement the builtin command cd |
