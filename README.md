@@ -28,7 +28,7 @@
 * How to suspend the execution of a process until one of its children terminates
 * What is <code>EOF</code> / “end-of-file”?
 
-| Task Done | Description |
+| Done Tasks  | Descriptions |
 | ---- | ---- |
 | 0. Betty would be proud |  Write a beautiful code that passes the Betty checks |
 | 1. Simple shell 0.1 | Display a prompt and wait for the user to type a command line. |
@@ -41,3 +41,9 @@
 | 8. Simple shell 0.4.1 | handle arguments for the built-in exit |
 | 9. setenv, unsetenv | Implement the setenv and unsetenv builtin commands |
 | 10. cd | Implement the builtin command cd |
+
+[function_2.c](https://github.com/naanaa59/simple_shell/blob/master/function_2.c) | customized functions  |
+| [function_3.c](https://github.com/naanaa59/simple_shell/blob/master/function_3.c) | customized functions        |
+| [functions_4.c](https://github.com/naanaa59/simple_shell/blob/master/functions_4.c) |  customized functions               |
+| [cd.c](https://github.com/naanaa59/simple_shell/blob/master/cd.c) |       change directory function         |
+| [hsh.c](https://github.com/naanaa59/simple_shell/blob/master/hsh.c) |            Main function     |
